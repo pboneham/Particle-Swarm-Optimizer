@@ -1,0 +1,7 @@
+{
+    "linCoeff" : {"upper" : 1.0, "lower" : 0.15},
+    "emissResidualFac" : {"lower" : 0.1, "upper" : 10.0},
+    "ch4Fac" : {"lower" : 0.0, "upper" : 0.10},
+    "co2Fac" : {"lower" : 0.0, "upper" : 0.001},
+    "n2oFac" : {"lower" : 0.0, "upper" : 10.0}
+}
