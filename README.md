@@ -11,11 +11,14 @@ to its own interface.
 The swarm optimizer is used as follows (it can be called using lua, or the faster JIT version, luajit):
 
 ```
-luajit swarmoptmizer [--optimizer_iterations <optimizer_iterations>]
+luajit swarmoptimizer.lua
+       [--optimizer_iterations <optimizer_iterations>]
        [--optimizer_swarmsize <optimizer_swarmsize>]
        [--optimizer_tolerance <optimizer_tolerance>]
-       [--base_infile <base_infile>] [--refcurve <refcurve>]
-       [--script_engine <script_engine>] [--adaptor <adaptor>]
+       [--base_infile <base_infile>] 
+       [--refcurve <refcurve>]
+       [--script_engine <script_engine>] 
+       [--adaptor <adaptor>]
        [--param_ranges <param_ranges>] [-h]
 
 
